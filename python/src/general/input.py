@@ -1,5 +1,5 @@
 
-from src.featurs.featurs import Featurs
+from src.features.features import Features
 
 class Input():
 	@staticmethod
@@ -10,7 +10,7 @@ class Input():
 
 	@staticmethod
 	def input_processing(inputs):
-		if (inputs[0] in Featurs.featurs_list()):
-			pass
+		if (inputs[0] in Features.featurs_list()):
+			Features.featur_start(inputs)
 		else:
 			print('Comand invalid!')
