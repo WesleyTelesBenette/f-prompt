@@ -1,14 +1,14 @@
 
-from src.general.input import Input;
+from src.general.input import Input
 
 class Program():
 	def __init__(self):
-		self.main();
+		self.main()
     
 	def main(self):
 		while(True):
-			input = Input.get_input()
-			Input.input_processing(input)
+			inputs = Input.get_input()
+			Input.input_processing(inputs)
 
 if (__name__ == '__main__'):
 	Program()
