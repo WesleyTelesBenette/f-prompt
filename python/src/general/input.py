@@ -10,7 +10,7 @@ class Input():
 
 	@staticmethod
 	def input_processing(inputs):
-		if (inputs[0] in Features.featurs_list()):
-			Features.featur_start(inputs)
+		if (inputs[0] in Features.features_list()):
+			Features.feature_start(inputs)
 		else:
 			print('Comand invalid!')
